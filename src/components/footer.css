@@ -1,0 +1,31 @@
+.footer {
+    height: 300px;
+    background-color: #EFEFEF;
+    /* background-color: white; */
+    color: #1E211D;
+    /* color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    padding-top: 60px;
+}
+.cat {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B8181F;
+}
+.cat-ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.cat-li {
+    margin-bottom: 6px;
+}
+
+.cat-li:hover {
+    color: #B8181F;
+}
